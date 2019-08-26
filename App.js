@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import { StyleSheet, View, Text, TextInput, Button } from "react-native"
 
 const App = () => {
+  const [goalEntered, setEnteredGoal] = useState("")
   return (
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
